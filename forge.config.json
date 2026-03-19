@@ -1,0 +1,21 @@
+{
+  "packagerConfig": {
+    "asar": true,
+    "name":  "PocketMon",
+    "icon":  "./src/assets/icon"
+  },
+  "rebuildConfig": {},
+  "makers": [
+    {
+      "name": "@electron-forge/maker-squirrel",
+      "config": {
+        "name": "PocketMon"
+      }
+    },
+    {
+      "name": "@electron-forge/maker-zip",
+      "platforms": ["darwin"]
+    }
+  ],
+  "plugins": []
+}
