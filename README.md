@@ -1,6 +1,6 @@
 # PocketMon
 
-A FireRed-style Pokémon adventure game built with **Phaser 3** + **Electron**.
+A PokéRogue Pokémon adventure game built with **Phaser 3** + **Electron**.
 
 ## Tech Stack
 | Layer | Tool |
